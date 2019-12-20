@@ -39,7 +39,7 @@ const getBeachById = async (req, res) => {
 
 const createBeach = async (req, res) => {
   const bodyBeach = req.body;
-  let beach;
+  let beach;;
 
   try {
     beach = await Beaches.create({...bodyBeach});
