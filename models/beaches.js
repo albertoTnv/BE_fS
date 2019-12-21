@@ -24,7 +24,7 @@ module.exports = (sequelize, DataType) => {
   // Association to other models (foreign keys)
   Beaches.associate = function (models) {
 
-  };
+  };;
 
   return Beaches;
 };
